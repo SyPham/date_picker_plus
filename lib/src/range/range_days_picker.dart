@@ -272,7 +272,7 @@ class __RangeDaysPickerState extends State<RangeDaysPicker> {
     //
     final TextStyle daysOfTheWeekTextStyle = widget.daysOfTheWeekTextStyle ??
         textTheme.titleSmall!.copyWith(
-          color: colorScheme.onSurface.withOpacity(alpha: 0.30),
+          color: colorScheme.onSurface.withOpacity(0.30),
           fontWeight: FontWeight.bold,
           fontSize: 14,
         );
@@ -298,7 +298,7 @@ class __RangeDaysPickerState extends State<RangeDaysPicker> {
     final TextStyle disabledCellsTextStyle = widget.disabledCellsTextStyle ??
         textTheme.titleLarge!.copyWith(
           fontWeight: FontWeight.normal,
-          color: colorScheme.onSurface.withOpacity(alpha: 0.30),
+          color: colorScheme.onSurface.withOpacity(0.30),
         );
 
     final BoxDecoration disbaledCellsDecoration = widget.disabledCellsDecoration;

@@ -322,7 +322,7 @@ class _YearsPickerState extends State<YearsPicker> {
     final TextStyle disabledCellsTextStyle = widget.disabledCellsTextStyle ??
         textTheme.titleLarge!.copyWith(
           fontWeight: FontWeight.normal,
-          color: colorScheme.onSurface.withOpacity(alpha: 0.30),
+          color: colorScheme.onSurface.withOpacity(0.30),
         );
 
     final BoxDecoration disbaledCellsDecoration = widget.disabledCellsDecoration;
