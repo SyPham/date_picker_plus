@@ -300,7 +300,7 @@ class _DaysPickerState extends State<DaysPicker> {
     //
     final TextStyle daysOfTheWeekTextStyle = widget.daysOfTheWeekTextStyle ??
         textTheme.titleSmall!.copyWith(
-          color: colorScheme.onSurface.withValues(alpha: 0.30),
+          color: colorScheme.onSurface.withOpacity(alpha: 0.30),
           fontWeight: FontWeight.bold,
           fontSize: 14,
         );
