@@ -303,7 +303,7 @@ class _MonthPickerState extends State<MonthPicker> {
     final TextStyle disabledCellsTextStyle = widget.disabledCellsTextStyle ??
         textTheme.titleLarge!.copyWith(
           fontWeight: FontWeight.normal,
-          color: colorScheme.onSurface.withValues(alpha: 0.30),
+          color: colorScheme.onSurface.withOpacity(alpha: 0.30),
         );
 
     final BoxDecoration disbaledCellsDecoration = widget.disabledCellsDecoration;
@@ -360,12 +360,12 @@ class _MonthPickerState extends State<MonthPicker> {
     //
     //! splash
     final splashColor = widget.splashColor ??
-        selectedCellDecoration.color?.withValues(alpha: 0.3) ??
-        colorScheme.primary.withValues(alpha: 0.3);
+        selectedCellDecoration.color?.withOpacity(alpha: 0.3) ??
+        colorScheme.primary.withOpacity(alpha: 0.3);
 
     final highlightColor = widget.highlightColor ??
-        selectedCellDecoration.color?.withValues(alpha: 0.3) ??
-        colorScheme.primary.withValues(alpha: 0.3);
+        selectedCellDecoration.color?.withOpacity(alpha: 0.3) ??
+        colorScheme.primary.withOpacity(alpha: 0.3);
     //
     //
 
