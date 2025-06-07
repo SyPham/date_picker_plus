@@ -368,12 +368,12 @@ class __RangeDaysPickerState extends State<RangeDaysPicker> {
     //
     //! splash
     final splashColor = widget.splashColor ??
-        singleSelectedCellDecoration.color?.withOpacity(alpha: 0.3) ??
-        colorScheme.primary.withOpacity(alpha: 0.3);
+        singleSelectedCellDecoration.color?.withOpacity( 0.3) ??
+        colorScheme.primary.withOpacity( 0.3);
 
     final highlightColor = widget.highlightColor ??
-        singleSelectedCellDecoration.color?.withOpacity(alpha: 0.3) ??
-        colorScheme.primary.withOpacity(alpha: 0.3);
+        singleSelectedCellDecoration.color?.withOpacity( 0.3) ??
+        colorScheme.primary.withOpacity( 0.3);
     //
     //
 

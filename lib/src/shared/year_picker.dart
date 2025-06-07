@@ -379,12 +379,12 @@ class _YearsPickerState extends State<YearsPicker> {
     //
     //! splash
     final splashColor = widget.splashColor ??
-        selectedCellDecoration.color?.withOpacity(alpha: 0.3) ??
-        colorScheme.primary.withOpacity(alpha: 0.3);
+        selectedCellDecoration.color?.withOpacity( 0.3) ??
+        colorScheme.primary.withOpacity( 0.3);
 
     final highlightColor = widget.highlightColor ??
-        selectedCellDecoration.color?.withOpacity(alpha: 0.3) ??
-        colorScheme.primary.withOpacity(alpha: 0.3);
+        selectedCellDecoration.color?.withOpacity( 0.3) ??
+        colorScheme.primary.withOpacity( 0.3);
     //
     //
 
